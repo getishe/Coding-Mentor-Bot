@@ -107,16 +107,28 @@ h2.sushi {
     /* width:50% ; */
     /* background-color: blue; */
     /* background-color: yellow;    */
-    grid-column: 1 / 4;
+    grid-column: 2 / 4;
     grid-row: 2/3;
   }
   .content3 h2 {
-    margin: 0 90%;
-    width: 6.8%;
-    padding: 0 2%;
+    margin: 0 80%;
+    width: 15.2%;
+    /* padding: 0 2%;s */
   }
+
+  h2.chicken,
+  h2.beef {
+    margin: 0 55%;
+    width: 35.2%;
+  }
+  /* .container h2 { */
+  /* margin-left: 0 71%; */
+  /* border: 2px solid black; */
+  /* padding: 0 2rem; */
+  /* width: 40%; */
+  /* } */
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container {
     display: grid;
     grid-template-columns: repeat(1, 4fr);
@@ -140,5 +152,13 @@ h2.sushi {
     /* width: 90%; */
     /* padding: 0.5rem 1rem; */
     border: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container h2 {
+    margin: 0 30%;
+    padding: 0 2rem;
+    width: 40%;
   }
 }
