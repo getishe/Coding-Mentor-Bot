@@ -1,2 +1,3 @@
-# module2-solution
+# Coding mentor bot
+
 teast
